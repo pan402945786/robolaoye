@@ -1,0 +1,58 @@
+{
+  "project": "RoboLaoye",
+  "baseline": "V0.2",
+  "updated_on": "2026-10-21",
+  "design_status": "concept_not_validated",
+  "user_confirmed": {
+    "mass_kg": 70,
+    "mass_original": "140斤",
+    "height_mm": 1750,
+    "can_sit_independently": true,
+    "affected_side": "right",
+    "daily_attendant_operator": false,
+    "operation_goal": "occupant_operated",
+    "prototype_material_form": "metal"
+  },
+  "pending_environment": {
+    "stairs_description": "标准楼梯",
+    "entry_door_description": "标准入户门",
+    "elevator_description": "标准电梯",
+    "max_obstacle_original": "40cm",
+    "max_obstacle_as_written_mm": 400,
+    "obstacle_unit_confirmed": false,
+    "obstacle_geometry": null,
+    "stair_rise_mm": null,
+    "stair_tread_mm": null,
+    "stair_clear_width_mm": null,
+    "landing_length_mm": null,
+    "landing_width_mm": null,
+    "doorway_clear_width_mm": null,
+    "elevator_door_clear_width_mm": null,
+    "elevator_clear_length_mm": null,
+    "elevator_clear_width_mm": null
+  },
+  "pending_user_assessment": {
+    "left_hand_operability": null,
+    "independent_transfer": null,
+    "seat_width_mm": null,
+    "seat_depth_mm": null,
+    "lower_leg_length_mm": null,
+    "single_hand_restraint_use": null
+  },
+  "provisional_analysis": {
+    "design_occupant_mass_kg": 100,
+    "certified_rated_occupant_mass_kg": null,
+    "historical_example_total_mass_kg": 180,
+    "actual_device_mass_kg": null,
+    "confirmed_total_mass_kg": null,
+    "left_hand_controller": "candidate_pending_assessment",
+    "autonomous_navigation": "not_confirmed_requirement",
+    "validated_unaccompanied_stair_use": false,
+    "validated_obstacle_height_mm": null
+  },
+  "development": {
+    "first_hardware": "metal_structure_and_ballasted_test_rig",
+    "supervised_testing_required": true,
+    "manufacturing_drawings_released": false
+  }
+}

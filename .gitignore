@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# CAD and simulation generated files
+*.bak
+*.tmp
+*.lock
+*.log
+*.autosave
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large generated artifacts
+simulation/results/
+cad/exports/
+prototype/photos/

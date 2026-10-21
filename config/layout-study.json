@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "illustrative_assumptions_not_manufacturing_dimensions",
+  "units": {"mass": "kg", "length": "mm", "angle": "deg"},
+  "coordinate_system": "chassis: x forward, y left, z up; origin at nominal support-plane centre",
+  "seat_pivot_mm": [0, 0, 500],
+  "occupant_cog_mm": [30, 0, 950],
+  "components": [
+    {"id": "frame", "name": "主车架", "group": "chassis", "mass_kg": 20, "mass_range_kg": [16, 26], "cog_mm": [0, 0, 250], "size_mm": [900, 540, 120]},
+    {"id": "tracks", "name": "左右履带总成", "group": "chassis", "mass_kg": 24, "mass_range_kg": [18, 32], "cog_mm": [0, 0, 140], "size_mm": [1000, 640, 220]},
+    {"id": "drives", "name": "驱动减速及制动", "group": "chassis", "mass_kg": 10, "mass_range_kg": [8, 16], "cog_mm": [-280, 0, 220], "size_mm": [200, 500, 160]},
+    {"id": "battery", "name": "电池及安装盒", "group": "chassis", "mass_kg": 16, "mass_range_kg": [12, 22], "cog_mm": [-80, 0, 180], "size_mm": [300, 300, 160]},
+    {"id": "seat", "name": "座椅与身体支撑", "group": "seat", "mass_kg": 10, "mass_range_kg": [8, 15], "cog_mm": [0, 0, 620], "size_mm": [500, 560, 700]},
+    {"id": "leveling", "name": "调平承载及锁止", "group": "chassis", "mass_kg": 8, "mass_range_kg": [6, 14], "cog_mm": [0, 0, 430], "size_mm": [400, 400, 180]},
+    {"id": "arms", "name": "候选前后支撑机构", "group": "chassis", "mass_kg": 12, "mass_range_kg": [8, 22], "cog_mm": [0, 0, 180], "size_mm": [1100, 600, 200]},
+    {"id": "electronics", "name": "电控与传感", "group": "chassis", "mass_kg": 3, "mass_range_kg": [2, 5], "cog_mm": [-200, 0, 380], "size_mm": [200, 200, 100]},
+    {"id": "guards", "name": "护罩和脚托", "group": "chassis", "mass_kg": 4, "mass_range_kg": [3, 7], "cog_mm": [220, 0, 300], "size_mm": [400, 580, 200]},
+    {"id": "wiring", "name": "线束紧固和附件", "group": "chassis", "mass_kg": 3, "mass_range_kg": [2, 5], "cog_mm": [0, 0, 300], "size_mm": [400, 400, 200]},
+    {"id": "reserve", "name": "未分配质量占位", "group": "chassis", "mass_kg": 5, "mass_range_kg": [0, 10], "cog_mm": [0, 0, 350], "size_mm": [100, 100, 100]}
+  ],
+  "support_sets_mm": {
+    "full": [[-450, -280], [450, -280], [450, 280], [-450, 280]],
+    "short_rear": [[-450, -280], [-100, -280], [-100, 280], [-450, 280]],
+    "left_only": [[-450, 180], [450, 180], [450, 280], [-450, 280]]
+  },
+  "scenarios": [
+    {"id": "empty_flat", "name": "空车平面示例", "occupant": "empty", "pitch_deg": 0, "roll_deg": 0, "seat_pitch_deg": 0, "occupant_offset_mm": [0, 0, 0], "support": "full"},
+    {"id": "actual_flat", "name": "70 kg 平面示例", "occupant": "actual", "pitch_deg": 0, "roll_deg": 0, "seat_pitch_deg": 0, "occupant_offset_mm": [0, 0, 0], "support": "full"},
+    {"id": "design_flat", "name": "100 kg 分析载荷示例", "occupant": "design", "pitch_deg": 0, "roll_deg": 0, "seat_pitch_deg": 0, "occupant_offset_mm": [0, 0, 0], "support": "full"},
+    {"id": "pitch_up", "name": "前端抬高 30 度示例", "occupant": "design", "pitch_deg": 30, "roll_deg": 0, "seat_pitch_deg": -30, "occupant_offset_mm": [0, 0, 0], "support": "full"},
+    {"id": "pitch_down", "name": "前端降低 30 度示例", "occupant": "design", "pitch_deg": -30, "roll_deg": 0, "seat_pitch_deg": 30, "occupant_offset_mm": [0, 0, 0], "support": "full"},
+    {"id": "right_offset", "name": "右偏 120 mm 示例", "occupant": "design", "pitch_deg": 0, "roll_deg": 0, "seat_pitch_deg": 0, "occupant_offset_mm": [0, -120, 0], "support": "full"},
+    {"id": "cross_slope", "name": "左侧抬高 10 度且右偏示例", "occupant": "design", "pitch_deg": 0, "roll_deg": 10, "seat_pitch_deg": 0, "occupant_offset_mm": [0, -120, 0], "support": "full"},
+    {"id": "leveling_stuck", "name": "调平保持零位示例", "occupant": "design", "pitch_deg": 30, "roll_deg": 0, "seat_pitch_deg": 0, "occupant_offset_mm": [0, 0, 0], "support": "full"},
+    {"id": "reduced_contact", "name": "假设仅后段接触反例", "occupant": "design", "pitch_deg": 0, "roll_deg": 0, "seat_pitch_deg": 0, "occupant_offset_mm": [0, 0, 0], "support": "short_rear"},
+    {"id": "single_side", "name": "假设仅左侧接触反例", "occupant": "design", "pitch_deg": 0, "roll_deg": 0, "seat_pitch_deg": 0, "occupant_offset_mm": [0, 0, 0], "support": "left_only"}
+  ]
+}

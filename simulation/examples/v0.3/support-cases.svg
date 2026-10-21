@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+<rect width="1200" height="1400" fill="#f5f7fa"/>
+<g font-family="Microsoft YaHei,Arial,sans-serif" fill="#18283a">
+<text x="30" y="38" font-size="24">共面支撑重力投影示例</text>
+<text x="30" y="70" font-size="16">+x 向右，+y 向上；蓝面为假设支撑区，点为重力线落点。正裕量仅表示投影在内部。</text>
+<text x="30" y="97" font-size="16">全部工况为演示参数；不能表示楼梯、400 mm 单级或单故障验证通过。</text>
+<text x="20" y="135" font-size="16">空车平面示例</text>
+<polygon points="98.75,338.00 301.25,338.00 301.25,212.00 98.75,212.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="192.57" cy="275.00" r="6" fill="#174b68"/>
+<text x="20" y="412" font-size="15">115 kg / 边线裕量 280.0 mm</text>
+<text x="420" y="135" font-size="16">70 kg 平面示例</text>
+<polygon points="498.75,338.00 701.25,338.00 701.25,212.00 498.75,212.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="597.93" cy="275.00" r="6" fill="#174b68"/>
+<text x="420" y="412" font-size="15">185 kg / 边线裕量 280.0 mm</text>
+<text x="820" y="135" font-size="16">100 kg 分析载荷示例</text>
+<polygon points="898.75,338.00 1101.25,338.00 1101.25,212.00 898.75,212.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="999.16" cy="275.00" r="6" fill="#174b68"/>
+<text x="820" y="412" font-size="15">215 kg / 边线裕量 280.0 mm</text>
+<text x="20" y="455" font-size="16">前端抬高 30 度示例</text>
+<polygon points="98.75,658.00 301.25,658.00 301.25,532.00 98.75,532.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="151.90" cy="595.00" r="6" fill="#174b68"/>
+<text x="20" y="732" font-size="15">215 kg / 边线裕量 236.2 mm</text>
+<text x="420" y="455" font-size="16">前端降低 30 度示例</text>
+<polygon points="498.75,658.00 701.25,658.00 701.25,532.00 498.75,532.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="647.40" cy="595.00" r="6" fill="#174b68"/>
+<text x="420" y="732" font-size="15">215 kg / 边线裕量 239.3 mm</text>
+<text x="820" y="455" font-size="16">右偏 120 mm 示例</text>
+<polygon points="898.75,658.00 1101.25,658.00 1101.25,532.00 898.75,532.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="999.16" cy="607.56" r="6" fill="#174b68"/>
+<text x="820" y="732" font-size="15">215 kg / 边线裕量 224.2 mm</text>
+<text x="20" y="775" font-size="16">左侧抬高 10 度且右偏示例</text>
+<polygon points="98.75,978.00 301.25,978.00 301.25,852.00 98.75,852.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="199.16" cy="950.67" r="6" fill="#174b68"/>
+<text x="20" y="1052" font-size="15">215 kg / 边线裕量 121.5 mm</text>
+<text x="420" y="775" font-size="16">调平保持零位示例</text>
+<polygon points="498.75,978.00 701.25,978.00 701.25,852.00 498.75,852.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="523.50" cy="915.00" r="6" fill="#174b68"/>
+<text x="420" y="1052" font-size="15">215 kg / 边线裕量 110.0 mm</text>
+<text x="820" y="775" font-size="16">假设仅后段接触反例</text>
+<polygon points="898.75,978.00 977.50,978.00 977.50,852.00 898.75,852.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="999.16" cy="915.00" r="6" fill="#b83f32"/>
+<text x="820" y="1052" font-size="15">215 kg / 边线裕量 -96.3 mm</text>
+<text x="20" y="1095" font-size="16">假设仅左侧接触反例</text>
+<polygon points="98.75,1194.50 301.25,1194.50 301.25,1172.00 98.75,1172.00" fill="#d4e7ee" stroke="#48819b" stroke-width="2"/>
+<circle cx="199.16" cy="1235.00" r="6" fill="#b83f32"/>
+<text x="20" y="1372" font-size="15">215 kg / 边线裕量 -180.0 mm</text>
+</g></svg>

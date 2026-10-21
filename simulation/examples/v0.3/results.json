@@ -1,0 +1,394 @@
+{
+  "status": "illustrative_not_validated",
+  "units": {
+    "mass": "kg",
+    "length": "mm",
+    "angle": "deg"
+  },
+  "input_hashes": {
+    "layout_sha256": "4e658195ffda24e6479703103b94e486537e0f8cd37b1bda8c17c57453005020",
+    "inputs_sha256": "485d53039b0df68c5d2ebeb53e4d546d95cb642b97d7361b186bb7955aa9b670"
+  },
+  "scenarios": [
+    {
+      "id": "empty_flat",
+      "name": "空车平面示例",
+      "occupant_kg": 0,
+      "total_kg": 115.0,
+      "cog_mm": [
+        -33.04347826086956,
+        0.0,
+        262.8695652173913
+      ],
+      "projection_mm": [
+        -33.04347826086956,
+        0.0
+      ],
+      "signed_margin_mm": 280.0,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 0,
+      "roll_deg": 0,
+      "seat_pitch_deg": 0
+    },
+    {
+      "id": "actual_flat",
+      "name": "70 kg 平面示例",
+      "occupant_kg": 70,
+      "total_kg": 185.0,
+      "cog_mm": [
+        -9.18918918918919,
+        0.0,
+        522.8648648648649
+      ],
+      "projection_mm": [
+        -9.18918918918919,
+        0.0
+      ],
+      "signed_margin_mm": 280.0,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 0,
+      "roll_deg": 0,
+      "seat_pitch_deg": 0
+    },
+    {
+      "id": "design_flat",
+      "name": "100 kg 分析载荷示例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        -3.7209302325581395,
+        0.0,
+        582.4651162790698
+      ],
+      "projection_mm": [
+        -3.7209302325581395,
+        0.0
+      ],
+      "signed_margin_mm": 280.0,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 0,
+      "roll_deg": 0,
+      "seat_pitch_deg": 0
+    },
+    {
+      "id": "pitch_up",
+      "name": "前端抬高 30 度示例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        101.85151726210843,
+        0.0,
+        546.699412348098
+      ],
+      "projection_mm": [
+        -213.78553562287613,
+        0.0
+      ],
+      "signed_margin_mm": 236.21446437712387,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 30,
+      "roll_deg": 0,
+      "seat_pitch_deg": -30
+    },
+    {
+      "id": "pitch_down",
+      "name": "前端降低 30 度示例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        -113.0322036681241,
+        0.0,
+        560.652900720191
+      ],
+      "projection_mm": [
+        210.66089948462263,
+        0.0
+      ],
+      "signed_margin_mm": 239.33910051537734,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": -30,
+      "roll_deg": 0,
+      "seat_pitch_deg": 30
+    },
+    {
+      "id": "right_offset",
+      "name": "右偏 120 mm 示例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        -3.7209302325581395,
+        -55.81395348837209,
+        582.4651162790698
+      ],
+      "projection_mm": [
+        -3.7209302325581395,
+        -55.81395348837209
+      ],
+      "signed_margin_mm": 224.18604651162792,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 0,
+      "roll_deg": 0,
+      "seat_pitch_deg": 0
+    },
+    {
+      "id": "cross_slope",
+      "name": "左侧抬高 10 度且右偏示例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        -3.7209302325581395,
+        -55.81395348837209,
+        582.4651162790698
+      ],
+      "projection_mm": [
+        -3.7209302325581395,
+        -158.51826880986545
+      ],
+      "signed_margin_mm": 121.48173119013455,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 0,
+      "roll_deg": 10,
+      "seat_pitch_deg": 0
+    },
+    {
+      "id": "leveling_stuck",
+      "name": "调平保持零位示例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        -3.7209302325581395,
+        0.0,
+        582.4651162790698
+      ],
+      "projection_mm": [
+        -340.0073219098457,
+        0.0
+      ],
+      "signed_margin_mm": 109.9926780901543,
+      "projection_region": "inside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          -280.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 30,
+      "roll_deg": 0,
+      "seat_pitch_deg": 0
+    },
+    {
+      "id": "reduced_contact",
+      "name": "假设仅后段接触反例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        -3.7209302325581395,
+        0.0,
+        582.4651162790698
+      ],
+      "projection_mm": [
+        -3.7209302325581395,
+        0.0
+      ],
+      "signed_margin_mm": -96.27906976744185,
+      "projection_region": "outside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          -280.0
+        ],
+        [
+          -100.0,
+          -280.0
+        ],
+        [
+          -100.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 0,
+      "roll_deg": 0,
+      "seat_pitch_deg": 0
+    },
+    {
+      "id": "single_side",
+      "name": "假设仅左侧接触反例",
+      "occupant_kg": 100,
+      "total_kg": 215.0,
+      "cog_mm": [
+        -3.7209302325581395,
+        0.0,
+        582.4651162790698
+      ],
+      "projection_mm": [
+        -3.7209302325581395,
+        0.0
+      ],
+      "signed_margin_mm": -180.0,
+      "projection_region": "outside",
+      "support_hull_mm": [
+        [
+          -450.0,
+          180.0
+        ],
+        [
+          450.0,
+          180.0
+        ],
+        [
+          450.0,
+          280.0
+        ],
+        [
+          -450.0,
+          280.0
+        ]
+      ],
+      "pitch_deg": 0,
+      "roll_deg": 0,
+      "seat_pitch_deg": 0
+    }
+  ]
+}

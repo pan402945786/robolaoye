@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RoboLaoye · 候选方案 A</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;overflow:hidden;width:100%;height:100%;background:#edf0f0;color:#20303a;font-family:"Microsoft YaHei","Segoe UI",sans-serif}canvas{display:block;width:100%;height:100%}#overlay{position:fixed;inset:0;pointer-events:none;transform-origin:0 0;width:1920px;height:1080px}.head{position:absolute;left:64px;top:44px}.eyebrow{font-size:20px;letter-spacing:4px;color:#50676a;margin-bottom:10px}.title{font-size:48px;font-weight:700;letter-spacing:1px}.subtitle{font-size:24px;color:#55666c;margin-top:10px}.badge{position:absolute;right:64px;top:55px;border:1px solid #c39a59;background:#fff8e9;color:#866028;border-radius:24px;padding:10px 21px;font-size:21px}.panel{position:absolute;right:64px;top:220px;width:405px;padding:30px 30px 16px;background:rgba(255,255,255,.86);border:1px solid #d6dfe0;border-radius:24px;box-shadow:0 14px 60px #132b3210}.panel h2{font-size:27px;margin:0 0 10px}.panel .intro{font-size:20px;line-height:1.6;color:#627276;margin-bottom:26px}.item{padding:20px 0;border-top:1px solid #e0e6e6}.item b{font-size:24px;font-weight:600;display:block;margin-bottom:8px}.item span{font-size:20px;line-height:1.5;color:#5d7075}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#237b83;margin-right:10px}.foot{position:absolute;left:64px;bottom:43px;font-size:21px;color:#647479}.foot b{color:#2b464d}.caption{display:none;position:absolute;bottom:124px;left:64px;right:64px}.caption h2{font-size:35px;margin:0 0 13px}.caption p{font-size:25px;line-height:1.5;margin:0;color:#5b6e74}.timeline{position:absolute;left:64px;right:64px;bottom:49px;display:none;gap:12px}.step{flex:1;border-top:5px solid #d4dedf;padding-top:13px;font-size:20px;color:#7c8c90}.step.active{border-color:#257780;color:#1c6069;font-weight:600}.step.done{border-color:#8cb1b5}.video .panel,.video .foot{display:none}.video .timeline,.video .caption{display:flex}.video .caption{display:block}.video .title{font-size:39px}.video .subtitle{font-size:22px}.video .badge{font-size:19px}.dimension{position:absolute;overflow:visible;inset:0;width:1920px;height:1080px;display:none}#smallnote{position:absolute;left:64px;top:160px;font-size:20px;color:#7f6740;display:none}.video #smallnote{display:block}
+</style>
+<script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+<div id="overlay">
+ <div class="head"><div class="eyebrow">ROBOLAOYE / CONCEPT A</div><div class="title" id="title">履带式辅助移动座椅</div><div class="subtitle" id="subtitle">支腿辅助方案 · 成品外观概念图</div></div>
+ <div class="badge" id="badge">外观候选 · 尚未验证</div>
+ <div id="smallnote" style="top:182px">动作采用关键帧；尚未求解接触、受力与稳定性。</div>
+ <aside class="panel"><h2>设计如何配合工作</h2><div class="intro">以当前项目需求为参考，提出可继续建模的外观候选。</div><div class="item"><b><i class="dot"></i>左手操纵</b><span>摇杆、急停集中在左侧扶手。</span></div><div class="item"><b><i class="dot"></i>座椅俯仰调平</b><span>独立转轴与执行器的布置意图。</span></div><div class="item"><b><i class="dot"></i>低位电池与双履带</b><span>底部容纳动力、传动与电控。</span></div><div class="item"><b><i class="dot"></i>四角辅助支腿</b><span>橙色机构示意支撑与抬升方向。</span></div><div class="item"><b><i class="dot"></i>右侧身体支撑</b><span>靠垫、扶手与脚托按实测调整。</span></div></aside>
+ <div class="foot"><b>视觉概念 / 非加工图</b>　尺寸未冻结，尚无实体样机或载人能力验证。</div>
+ <div class="caption"><h2 id="phase"></h2><p id="description"></p></div>
+ <div class="timeline" id="timeline"></div>
+ <svg class="dimension" id="dimension" viewBox="0 0 1920 1080"><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="3" refY="3" orient="auto-start-reverse"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#a16928" stroke-width="1.5"/></marker></defs><g stroke="#a16928" stroke-width="2"><line id="dimension-line" marker-start="url(#arrow)" marker-end="url(#arrow)"/><line id="tick-top"/><line id="tick-bottom"/></g><text id="dimension-text" fill="#8e5922" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="600">400 mm</text></svg>
+</div>
+<script type="module" src="./scene.js"></script>
+</body></html>

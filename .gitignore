@@ -21,3 +21,7 @@ Thumbs.db
 simulation/results/
 cad/exports/
 prototype/photos/
+
+# Rebuildable visual assets and pinned third-party rendering dependency
+output/visualization/
+visualization/vendor/

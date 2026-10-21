@@ -1,6 +1,6 @@
 {
   "project": "RoboLaoye",
-  "baseline": "V0.2",
+  "baseline": "V0.3",
   "updated_on": "2026-10-21",
   "design_status": "concept_not_validated",
   "user_confirmed": {
@@ -19,8 +19,15 @@
     "elevator_description": "标准电梯",
     "max_obstacle_original": "40cm",
     "max_obstacle_as_written_mm": 400,
-    "obstacle_unit_confirmed": false,
-    "obstacle_geometry": null,
+    "obstacle_unit_confirmed": true,
+    "obstacle_geometry": "single_vertical_step",
+    "obstacle_geometry_confirmed": true,
+    "obstacle_confirmed_height_mm": 400,
+    "obstacle_confirmation_date": "2026-10-21",
+    "obstacle_clear_width_mm": null,
+    "obstacle_top_depth_mm": null,
+    "obstacle_edge_geometry": null,
+    "obstacle_approach_clearance_mm": null,
     "stair_rise_mm": null,
     "stair_tread_mm": null,
     "stair_clear_width_mm": null,
@@ -53,6 +60,10 @@
   "development": {
     "first_hardware": "metal_structure_and_ballasted_test_rig",
     "supervised_testing_required": true,
-    "manufacturing_drawings_released": false
+    "manufacturing_drawings_released": false,
+    "layout_analysis_config": "config/layout-study.json",
+    "layout_analysis_status": "illustrative_coplanar_gravity_projection_only",
+    "obstacle_400mm_work_package": "M2-H",
+    "obstacle_400mm_feasibility_validated": false
   }
 }

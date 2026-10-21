@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1160" viewBox="0 0 1200 1160">
+<rect width="1200" height="1160" fill="#f5f7fa"/>
+<g font-family="Microsoft YaHei,Arial,sans-serif" fill="#18283a">
+<text x="40" y="45" font-size="25">RoboLaoye — 参数化布局占位图</text>
+<text x="40" y="78" font-size="17">全部部件尺寸与质量均为示例；方框为占位包络，非加工图、非防干涉结果。</text>
+<text x="40" y="108" font-size="16">中立座椅坐标；示例方框总包络 1100 × 640 × 970 mm，不含完整乘员包络。</text>
+<text x="40" y="145" font-size="18">侧视：+x 向前 →，+z 向上 ↑</text>
+<text x="40" y="685" font-size="18">俯视：+x 向前 →，+y 向左侧 ↑</text>
+<rect x="141.24" y="472.16" width="371.13" height="49.48" fill="hsl(0,45%,65%)" fill-opacity=".18" stroke="hsl(0,45%,65%)" stroke-width="2"/>
+<rect x="141.24" y="740.62" width="371.13" height="222.68" fill="hsl(0,45%,65%)" fill-opacity=".18" stroke="hsl(0,45%,65%)" stroke-width="2"/>
+<text x="326.80" y="496.91" text-anchor="middle" font-size="13">1</text>
+<rect x="120.62" y="496.91" width="412.37" height="90.72" fill="hsl(37,45%,65%)" fill-opacity=".18" stroke="hsl(37,45%,65%)" stroke-width="2"/>
+<rect x="120.62" y="720.00" width="412.37" height="263.92" fill="hsl(37,45%,65%)" fill-opacity=".18" stroke="hsl(37,45%,65%)" stroke-width="2"/>
+<text x="326.80" y="542.27" text-anchor="middle" font-size="13">2</text>
+<rect x="170.10" y="476.29" width="82.47" height="65.98" fill="hsl(74,45%,65%)" fill-opacity=".18" stroke="hsl(74,45%,65%)" stroke-width="2"/>
+<rect x="170.10" y="748.87" width="82.47" height="206.19" fill="hsl(74,45%,65%)" fill-opacity=".18" stroke="hsl(74,45%,65%)" stroke-width="2"/>
+<text x="211.34" y="509.28" text-anchor="middle" font-size="13">3</text>
+<rect x="231.96" y="492.78" width="123.71" height="65.98" fill="hsl(111,45%,65%)" fill-opacity=".18" stroke="hsl(111,45%,65%)" stroke-width="2"/>
+<rect x="231.96" y="790.10" width="123.71" height="123.71" fill="hsl(111,45%,65%)" fill-opacity=".18" stroke="hsl(111,45%,65%)" stroke-width="2"/>
+<text x="293.81" y="525.77" text-anchor="middle" font-size="13">4</text>
+<rect x="223.71" y="200.00" width="206.19" height="288.66" fill="hsl(148,45%,65%)" fill-opacity=".18" stroke="hsl(148,45%,65%)" stroke-width="2"/>
+<rect x="223.71" y="736.49" width="206.19" height="230.93" fill="hsl(148,45%,65%)" fill-opacity=".18" stroke="hsl(148,45%,65%)" stroke-width="2"/>
+<text x="326.80" y="344.33" text-anchor="middle" font-size="13">5</text>
+<rect x="244.33" y="385.57" width="164.95" height="74.23" fill="hsl(185,45%,65%)" fill-opacity=".18" stroke="hsl(185,45%,65%)" stroke-width="2"/>
+<rect x="244.33" y="769.48" width="164.95" height="164.95" fill="hsl(185,45%,65%)" fill-opacity=".18" stroke="hsl(185,45%,65%)" stroke-width="2"/>
+<text x="326.80" y="422.68" text-anchor="middle" font-size="13">6</text>
+<rect x="100.00" y="484.54" width="453.61" height="82.47" fill="hsl(222,45%,65%)" fill-opacity=".18" stroke="hsl(222,45%,65%)" stroke-width="2"/>
+<rect x="100.00" y="728.25" width="453.61" height="247.42" fill="hsl(222,45%,65%)" fill-opacity=".18" stroke="hsl(222,45%,65%)" stroke-width="2"/>
+<text x="326.80" y="525.77" text-anchor="middle" font-size="13">7</text>
+<rect x="203.09" y="422.68" width="82.47" height="41.24" fill="hsl(259,45%,65%)" fill-opacity=".18" stroke="hsl(259,45%,65%)" stroke-width="2"/>
+<rect x="203.09" y="810.72" width="82.47" height="82.47" fill="hsl(259,45%,65%)" fill-opacity=".18" stroke="hsl(259,45%,65%)" stroke-width="2"/>
+<text x="244.33" y="443.30" text-anchor="middle" font-size="13">8</text>
+<rect x="335.05" y="435.05" width="164.95" height="82.47" fill="hsl(296,45%,65%)" fill-opacity=".18" stroke="hsl(296,45%,65%)" stroke-width="2"/>
+<rect x="335.05" y="732.37" width="164.95" height="239.18" fill="hsl(296,45%,65%)" fill-opacity=".18" stroke="hsl(296,45%,65%)" stroke-width="2"/>
+<text x="417.53" y="476.29" text-anchor="middle" font-size="13">9</text>
+<rect x="244.33" y="435.05" width="164.95" height="82.47" fill="hsl(333,45%,65%)" fill-opacity=".18" stroke="hsl(333,45%,65%)" stroke-width="2"/>
+<rect x="244.33" y="769.48" width="164.95" height="164.95" fill="hsl(333,45%,65%)" fill-opacity=".18" stroke="hsl(333,45%,65%)" stroke-width="2"/>
+<text x="326.80" y="476.29" text-anchor="middle" font-size="13">10</text>
+<rect x="306.19" y="435.05" width="41.24" height="41.24" fill="hsl(10,45%,65%)" fill-opacity=".18" stroke="hsl(10,45%,65%)" stroke-width="2"/>
+<rect x="306.19" y="831.34" width="41.24" height="41.24" fill="hsl(10,45%,65%)" fill-opacity=".18" stroke="hsl(10,45%,65%)" stroke-width="2"/>
+<text x="326.80" y="455.67" text-anchor="middle" font-size="13">11</text>
+<polygon points="141.24,967.42 512.37,967.42 512.37,736.49 141.24,736.49" fill="none" stroke="#174b68" stroke-width="3" stroke-dasharray="8 5"/>
+<circle cx="323.01" cy="384.39" r="7" fill="#d24735"/>
+<circle cx="323.01" cy="851.96" r="7" fill="#d24735"/>
+<text x="700" y="180" font-size="16">图号 / 部件 / 示例质量</text>
+<text x="700" y="210" font-size="15">1. 主车架 / 20 kg</text>
+<text x="700" y="235" font-size="15">2. 左右履带总成 / 24 kg</text>
+<text x="700" y="260" font-size="15">3. 驱动减速及制动 / 10 kg</text>
+<text x="700" y="285" font-size="15">4. 电池及安装盒 / 16 kg</text>
+<text x="700" y="310" font-size="15">5. 座椅与身体支撑 / 10 kg</text>
+<text x="700" y="335" font-size="15">6. 调平承载及锁止 / 8 kg</text>
+<text x="700" y="360" font-size="15">7. 候选前后支撑机构 / 12 kg</text>
+<text x="700" y="385" font-size="15">8. 电控与传感 / 3 kg</text>
+<text x="700" y="410" font-size="15">9. 护罩和脚托 / 4 kg</text>
+<text x="700" y="435" font-size="15">10. 线束紧固和附件 / 3 kg</text>
+<text x="700" y="460" font-size="15">11. 未分配质量占位 / 5 kg</text>
+<text x="40" y="1105" font-size="16">红点：70 kg 中立布局整机重心。虚线：该工况手工假设的支撑凸包。</text>
+<text x="40" y="1135" font-size="16">400 mm 单级登沿的接触、机构展开和载荷转移不在本图中表达。</text></g></svg>
